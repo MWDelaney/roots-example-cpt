@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    '\\MWD\\ExampleCPT' => array($baseDir . '/app'),
     'PostTypes\\' => array($vendorDir . '/jjgrainger/posttypes/src'),
-    'MWD\\ExampleCPT' => array($baseDir . '/app'),
 );
