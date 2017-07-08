@@ -11,7 +11,7 @@ $options = [
 // Register post type
 $example = new PostType('example', $options);
 
-// Set post type dashicon
+// Set post type dashicon from Dashicons: https://developer.wordpress.org/resource/dashicons/#chart-bar
 $example->icon('dashicons-no');
 
 // Set post type translation domain
