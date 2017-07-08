@@ -9,7 +9,8 @@ class Init {
 
 		// Include all post types
 		foreach (glob(EXAMPLECPT_PLUGIN_DIR . "app/types/*.php") as $filename) {
-			include $filename;
+      include $filename;
 		}
+
 	}
 }
