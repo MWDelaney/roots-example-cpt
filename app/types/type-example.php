@@ -14,8 +14,5 @@ $example = new PostType('example', $options);
 // Set post type dashicon from Dashicons: https://developer.wordpress.org/resource/dashicons/#chart-bar
 $example->icon('dashicons-no');
 
-// Set post type translation domain
-$example->translation('cpt-example');
-
-// Register the "Videos" post type with WordPress
+// Register the "Example" post type with WordPress
 $example->register(); 
