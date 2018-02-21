@@ -16,3 +16,6 @@ $example->icon('dashicons-no');
 
 // Set post type translation domain
 $example->translation('cpt-example');
+
+// Register the "Videos" post type with WordPress
+$example->register(); 
