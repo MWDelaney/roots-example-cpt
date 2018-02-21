@@ -4,7 +4,7 @@ use PostTypes\PostType;
 
 // Post type options
 $options = [
-	'supports' => array( 'title', 'editor', 'page-attributes', 'thumbnail' ),
+	'supports' => [ 'title', 'editor', 'page-attributes', 'thumbnail' ],
 	'capability_type' => 'page',
 ];
 
