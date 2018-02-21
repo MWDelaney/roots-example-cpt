@@ -1,5 +1,7 @@
 # Roots and Sage Friendly Example Custom Post Type Plugin using PostTypes
-This is an example WordPress custom post type as a plugin using the fantastic [PostTypes](https://github.com/jjgrainger/PostTypes).
+An example WordPress custom post type as a plugin using the fantastic [PostTypes](https://github.com/jjgrainger/PostTypes).
+
+Designed for easy-inclusion with [Roots](https://roots.io) [Bedrock](https://roots.io/bedrock/), but easily used in any WordPress project.
 
 ## If you want to adapt this for your own work
 * Update `composer.json` to change the name of the plugin and the PSR-4 autoload namespace
