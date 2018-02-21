@@ -1,4 +1,4 @@
-# Example CPT using PostTypes
+# Roots and Sage Friendly Example Custom Post Type Plugin using PostTypes
 This is an example WordPress custom post type as a plugin using the fantastic [PostTypes](https://github.com/jjgrainger/PostTypes).
 
 ## If you want to adapt this for your own work
@@ -8,4 +8,4 @@ This is an example WordPress custom post type as a plugin using the fantastic [P
 * Run `composer update` to regenerate the autoload files
 * Rename and update `app/types/example.php` to fit your needs
 
-Add the plugin to your WordPress `plugins` or `mu-plugins` directory.
+Add the plugin to your WordPress `plugins` or `mu-plugins` directory, or include it as a Composer dependency in your Bedrock project.
