@@ -6,6 +6,7 @@ use PostTypes\PostType;
 $options = [
 	'supports' => [ 'title', 'editor', 'page-attributes', 'thumbnail' ],
 	'capability_type' => 'page',
+	'show_in_rest' => true,
 ];
 
 // Register post type
